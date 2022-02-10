@@ -1,0 +1,44 @@
+section.main{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+section.main div img{
+    height: 100%;
+    width: 100%;
+}
+
+section.main .img-separate{
+    padding: 150px 75px 150px 150px;
+    color: var(--very-dark-gra-blue);
+}
+
+section.main .img-separate h2{
+    font-size: 50px;
+    color: var(--very-dark-des-blue);
+}
+
+section.main .img-background{
+    padding: 60% 20% 5% 20%;
+
+    text-align: center;
+}
+
+section.main .img-background h3{
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+section.main #graph-des.img-background{
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+    background-size: 100% 100%;
+
+    color: var(--dark-sat-cyan);
+}
+
+section.main #photo.img-background{
+    background-image: url('../images/desktop/image-photography.jpg');
+    background-size: 100% 100%;
+    
+    color: var(--dark-blue-);
+}

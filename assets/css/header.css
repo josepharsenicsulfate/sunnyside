@@ -1,0 +1,40 @@
+header{
+    height: 100vh;
+    text-align: center;
+    
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: 100% 100%;
+}
+
+header .navbar{
+    padding: 32px 24px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    text-align: right;
+}
+
+header .navbar a{
+    text-decoration: none;
+    color: var(--white-);
+
+    margin: 0 1rem;
+}
+
+header .navbar button{
+    padding: 16px 24px;
+
+    font-family: 'Fraunces', 'sans-serif';
+    text-transform: uppercase;
+
+    border-radius: 32px;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 375px){
+    header{
+        background-image: url("../images/mobile/image-header.jpg");
+    }
+}

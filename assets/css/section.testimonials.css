@@ -1,0 +1,27 @@
+section.testimonials{
+    padding: 15% 5%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30 px;
+
+    text-align: center;
+}
+
+section.testimonials :first-child{
+    grid-column: 1 / span 3;
+
+    text-transform: uppercase;
+    color: var(--gra-blue);
+}
+
+section.testimonials div img{
+    border-radius: 50%;
+}
+
+section.testimonials div h5{
+    font-family: "Fraunces", "sans-serif";
+    font-size: 18px;
+
+    color: var(--very-dark-des-blue-);
+}
