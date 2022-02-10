@@ -12,6 +12,7 @@ section.testimonials :first-child{
     grid-column: 1 / span 3;
 
     text-transform: uppercase;
+    letter-spacing: 5px;
     color: var(--gra-blue);
 }
 
