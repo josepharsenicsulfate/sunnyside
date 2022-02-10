@@ -59,3 +59,34 @@ section.main #photo.img-background{
     
     color: var(--dark-blue-);
 }
+
+@media (max-width: 375px) {
+    section.main{
+        grid-template-columns: 100%;
+    }
+
+    section.main .img-separate{
+        padding: 40px 10px;
+        color: var(--very-dark-gra-blue);
+
+        text-align: center;
+    }
+
+    section.main .img-separate h2{
+        font-size: 35px;
+    }
+
+    section.main #graph-des.img-background{
+        background-image: url('../images/mobile/image-graphic-design.jpg');
+        background-size: 100% 100%;
+    
+        color: var(--dark-sat-cyan);
+    }
+
+    section.main #photo.img-background{
+        background-image: url('../images/mobile/image-photography.jpg');
+        background-size: 100% 100%;
+        
+        color: var(--dark-blue-);
+    }
+}

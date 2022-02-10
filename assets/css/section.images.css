@@ -1,0 +1,15 @@
+section.images{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+section.images img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 375px){
+    section.images{
+        grid-template-columns: repeat(2,50%);
+    }
+}

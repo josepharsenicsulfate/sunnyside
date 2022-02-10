@@ -6,12 +6,14 @@
     --yellow-: hsl(51, 100%, 49%);
     --dark-sat-cyan: hsl(167, 40%, 24%);
     --dark-mod-cyan: hsl(168, 34%, 41%);
+    --light-cyan: hsl(167, 44%, 70%);
     --dark-blue-: hsl(198, 62%, 26%);
     --very-dark-des-blue-: hsl(212, 27%, 19%);
     --very-dark-gra-blue: hsl(213, 9%, 39%);
     --dark-gra-blue: hsl(232, 10%, 55%);
     --gra-blue: hsl(210, 4%, 67%);
     --white-: hsl(0, 0%, 100%);
+    --sky-blue-: hsl(200, 100%, 72%);
 }
 
 body{
@@ -30,16 +32,6 @@ h1{
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--white-);
-}
-
-section.images{
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-}
-
-section.images img{
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .attribution { font-size: 11px; text-align: center; }

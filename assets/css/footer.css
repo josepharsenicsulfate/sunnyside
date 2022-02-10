@@ -1,0 +1,42 @@
+footer{
+    padding: 50px 0;
+    display: flex;
+    flex-flow: column wrap;
+
+    align-items: center;
+
+    background-color: var(--light-cyan);
+}
+
+footer ul{
+    padding: 0;
+    margin: 50px;
+
+    list-style-type: none;
+}
+
+footer ul li{
+    float: left;
+}
+
+footer ul li a{
+    padding: 0 25px;
+    text-decoration: none;
+    color: var(--dark-mod-cyan);
+    font-size: 24px;
+}
+
+footer ul li a:hover{
+    color: var(--white-);
+}
+
+@media (max-width: 375px){
+    footer ul{
+        margin: 35px 0;
+    }
+
+    footer ul li a{
+        padding: 0 15px;
+        font-size: 18px;
+    }
+}
