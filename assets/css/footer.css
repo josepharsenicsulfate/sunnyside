@@ -30,7 +30,7 @@ footer ul li a:hover{
     color: var(--white-);
 }
 
-@media (max-width: 375px){
+@media (max-width: 425px){
     footer ul{
         margin: 35px 0;
     }

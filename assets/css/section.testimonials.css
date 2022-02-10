@@ -44,7 +44,7 @@ section.testimonials div h6{
     color: var(--gra-blue);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     section.testimonials{
         grid-template-columns: 100%;
     }

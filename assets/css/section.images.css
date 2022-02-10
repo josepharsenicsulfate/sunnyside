@@ -8,7 +8,7 @@ section.images img{
     max-height: 100%;
 }
 
-@media (max-width: 375px){
+@media (max-width: 425px){
     section.images{
         grid-template-columns: repeat(2,50%);
     }
