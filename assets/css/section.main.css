@@ -4,12 +4,12 @@ section.main{
 }
 
 section.main div img{
-    height: 100%;
     width: 100%;
+    object-position: center;
 }
 
 section.main .img-separate{
-    padding: 150px 75px 150px 150px;
+    padding: 20%;
     color: var(--very-dark-gra-blue);
 }
 
@@ -46,20 +46,20 @@ section.main .img-background h3{
     font-size: 24px;
 }
 
-section.main #graph-des.img-background{
-    background-image: url('../images/desktop/image-graphic-design.jpg');
+section.main .img-background{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+section.main #graph-des.img-background{
+    background-image: url('../images/desktop/image-graphic-design.jpg');
 
     color: var(--dark-sat-cyan);
 }
 
 section.main #photo.img-background{
     background-image: url('../images/desktop/image-photography.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
     color: var(--dark-blue-);
 }
@@ -80,6 +80,12 @@ section.main #photo.img-background{
         font-size: 35px;
     }
 
+    section.main .img-background{
+        padding: 70% 20% 5% 20%;
+    
+        text-align: center;
+    }
+
     section.main #graph-des.img-background{
         background-image: url('../images/mobile/image-graphic-design.jpg');
     
@@ -88,7 +94,6 @@ section.main #photo.img-background{
 
     section.main #photo.img-background{
         background-image: url('../images/mobile/image-photography.jpg');
-        background-color: var(--sky-blue-);
         
         color: var(--dark-blue-);
     }
